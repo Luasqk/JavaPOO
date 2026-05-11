@@ -21,7 +21,7 @@ public class ControleDeBonificacoes {
 
     public String getNomeFuncionario(int i) {
         if (i >= 0 && i <= funcionarios.size()) {
-            return funcionarios.get(i).getNome();
+            return "Funcionario registrado: "+ funcionarios.get(i).getNome() + "\n";
         }
         return null;
     }

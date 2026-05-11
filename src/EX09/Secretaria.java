@@ -16,6 +16,6 @@ public class Secretaria extends Funcionario{
     @Override
     public String toString() {
         return "Cargo: Secretaria\nNome: " + getNome() + "\nSalario: " + getSalario() + "\nBonificacao: " +
-                getBonificacao() + "\n";
+                getBonificacao();
     }
 }

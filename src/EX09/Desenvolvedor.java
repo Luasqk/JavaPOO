@@ -15,7 +15,7 @@ public class Desenvolvedor extends Funcionario {
 
     @Override
     public String toString() {
-        return "Cargo: Desenvolvedor\nNome: " + getNome() + "\nSalario: " + getSalario() + "Bonificacao: " +
-                getBonificacao() + "\n";
+        return "Cargo: Desenvolvedor\nNome: " + getNome() + "\nSalario: " + getSalario() + "\nBonificacao: " +
+                getBonificacao();
     }
 }

@@ -12,8 +12,13 @@ public class Main {
         cb.registrarFuncionario(desenvolvedor);
 
         System.out.println(gerente);
+        System.out.println(cb.getNomeFuncionario(0));
+
         System.out.println(secretaria);
+        System.out.println(cb.getNomeFuncionario(1));
+
         System.out.println(desenvolvedor);
+        System.out.println(cb.getNomeFuncionario(2));
 
         System.out.println(cb.getTotalBonificacoes());
     }

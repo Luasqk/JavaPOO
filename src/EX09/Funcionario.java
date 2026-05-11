@@ -4,6 +4,8 @@ public class Funcionario {
     private String nome;
     private Double salario;
 
+    ControleDeBonificacoes cb = new ControleDeBonificacoes();
+
     public double getBonificacao(){
         return getSalario() * 0.1;
     }
@@ -29,7 +31,7 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Cargo: Funcionario\nNome: " + getNome() + "\nSalario: " + getSalario() +"Funcionario Registrado" +"\nBonificacao: " +
-        getBonificacao() + "\n";
+        return "Cargo: Funcionario\nNome: " + getNome() + "\nSalario: " + getSalario()  +"\nBonificacao: " +
+        getBonificacao();
     }
 }
